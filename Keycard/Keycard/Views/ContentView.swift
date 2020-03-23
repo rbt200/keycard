@@ -10,7 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            FrontView()
+                //.edgesIgnoringSafeArea(.top)
+                //.frame(height: 500)
+                
+            //Spacer()
+        }
+        
     }
 }
 
