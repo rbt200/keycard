@@ -10,7 +10,19 @@ import SwiftUI
 
 struct BackView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            BarCode()
+            Spacer()
+        }
+    }
+}
+
+struct BarCode: View {
+    var body: some View {
+        Image("bar_code_1")
+            .resizable()
+            .aspectRatio(CGSize(width: 1.4, height: 0.7), contentMode: .fit)
+            .scaleEffect(0.8)
     }
 }
 

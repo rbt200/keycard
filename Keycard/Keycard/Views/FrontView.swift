@@ -55,7 +55,6 @@ struct TextFace: View {
                     .font(.largeTitle)
                     .fontWeight(.light)
             }
-            //.padding(.top)
             Text("LEAD UI DESIGNER")
                 .font(.headline)
                 .multilineTextAlignment(.center)
@@ -69,6 +68,7 @@ struct TextFace: View {
                     .fontWeight(.bold)
                     .foregroundColor(Color.red)
             }
+            .frame(height: 0.0)
             
         }
     }
