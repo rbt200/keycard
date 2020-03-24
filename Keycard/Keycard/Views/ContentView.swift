@@ -11,8 +11,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            BackView()
-            //FrontView()
+            //BackView()
+            FrontView()
             
                 //.edgesIgnoringSafeArea(.top)
                 //.frame(height: 500)
